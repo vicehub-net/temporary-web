@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { ExternalRedirectComponent } from './external-redirect/external-redirect.component';
+import { ExternalRedirectComponent } from './external-redirect.component';
 
 export const routes: Routes = [
   {
