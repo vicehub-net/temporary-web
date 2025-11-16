@@ -1,11 +1,15 @@
 <main class="relative min-h-screen w-full bg-[#0B0B10] text-white flex items-center justify-center overflow-hidden">
   <!-- Background image overlay -->
-  <div class="absolute inset-0 bg-[url('/branding/background.png')] bg-cover bg-center opacity-[0.12] pointer-events-none"></div>
+  <div class="absolute inset-0 bg-[url('/branding/bg.png')] bg-cover bg-center opacity-[0.12] pointer-events-none"></div>
 
   <!-- Foreground content -->
   <div class="relative z-10 flex flex-col items-center gap-6">
-    <img src="/branding/ViceHub.png" alt="ViceHub" class="w-[700px] max-w-[85vw] select-none" draggable="false" />
-    <p class="text-2xl sm:text-3xl font-semibold tracking-tight">Coming soon.</p>
+    <img src="/branding/vicehublogo.png" alt="ViceHub" class="w-[200px] max-w-[85vw] select-none" draggable="false" />
+    <p class="text-sm text-white/80 text-center font-semibold">
+      GTA VI Community. <br>
+      <span class="font-normal">Best place to chat, play and have fun with other people around the world.</span>
+    </p>
+    <p class="text-2xl sm:text-3xl font-semibold tracking-tight text-center">Grand Opening <br><span class="text-2xl">December 2025</span></p>
     <div class="flex items-center">
       <a href="https://discord.gg/mFEmSTTq4s" target="_blank" rel="noopener" 
          class="relative group inline-flex items-center gap-2 rounded-full bg-white text-black px-4 py-1.5 text-sm font-bold shadow transition duration-300 
@@ -22,3 +26,5 @@
     </div>
   </div>
 </main>
+
+<router-outlet></router-outlet>
